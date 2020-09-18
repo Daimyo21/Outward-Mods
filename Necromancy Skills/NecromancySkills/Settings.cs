@@ -9,14 +9,15 @@ namespace NecromancySkills
     {
         // Summon
         public float Summon_HealthCost = 0.1f; 
-        public bool Summon_BurnsHealth = false;
+        public bool Summon_BurnsHealth = true;
         public int Summon_MaxSummons_NoArmyOfDeath = 1;
         public int Summon_MaxSummons_WithArmyOfDeath = 3;
         public int Summon_Summoned_Per_Cast_withArmyOfDeath = 1;
         public float Summon_MaxHealth = 75f;
         public float Summon_HealthLoss = -0.75f;
         public float StrongSummon_MaxHealth = 250;
-        public float StrongSummon_HealthLoss = 2.5f;
+        public float StrongSummon_HealthLoss = -2.5f;
+        public float Summon_TeleportDistance = 50f;
 
         // Shoot Tendrils
         public float ShootTendrils_Heal_NoPlagueAura = 2.5f;
